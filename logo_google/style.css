@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+html,
+body {
+    height: 100%;
+    overflow-y: hidden;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f7f7f7;
+    margin: 0;
+}
+
+.logo-container {
+    margin: 50px auto;
+    height: 340px;
+    width: 340px;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 20px solid #ffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.12);
+}
+
+.red {
+    clear: both;
+    height: 125px;
+    width: 300px;
+    background: #f44336;
+}
+
+.green {
+    clear: both;
+    height: 115px;
+    width: 300px;
+    background: #4caf50;
+}
+
+.blue {
+    float: left;
+    height: 60px;
+    width: 150px;
+    background: #0091ea;
+}
+
+.blue-line {
+    position: relative;
+    height: 60px;
+    width: 150px;
+    top: -570px;
+    left: 150px;
+    background: #0091ea;
+    z-index: 120;
+}
+
+.blue-rotate {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: -600px;
+    left: 200px;
+    background: #0091ea;
+    transform: rotate(40deg);
+}
+
+.yellow {
+    float: left;
+    height: 60px;
+    width: 150px;
+    background: #ffc107;
+}
+
+.yellow-rotate-first {
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: -400px;
+    left: -30px;
+    background: #ffc107;
+    transform: rotate(40deg);
+}
+
+.yellow-rotate-second {
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: -370px;
+    left: -30px;
+    background: #ffc107;
+    transform: rotate(-40deg);
+}
+
+.white-rotate-first {
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: -535px;
+    left: 200px;
+    background: #fff;
+    transform: rotate(-45deg);
+    z-index: 110;
+}
+
+.white-second {
+    position: relative;
+    height: 50px;
+    width: 100px;
+    top: -560px;
+    left: 200px;
+    background: #fff;
+    z-index: 110;
+}
+
+.center {
+    position: relative;
+    height: 190px;
+    width: 190px;
+    top: -245px;
+    left: 55px;
+    border-radius: 50%;
+    background: #fff;
+    z-index: 100;
+}
+
+.white-rotate-third {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    top: -265px;
+    left: 235px;
+    background: #fff;
+    transform: rotate(-45deg);
+    z-index: 110;
+}
+
+.white-fourth {
+    position: relative;
+    height: 50px;
+    width: 70px;
+    top: -290px;
+    left: 250px;
+    background: #fff;
+    z-index: 110;
+}
