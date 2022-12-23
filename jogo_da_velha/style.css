@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: #FF4C40;
+}
+
+.jogo {
+    margin-top: 50px;
+}
+
+.stats {
+    width: 100%;
+    height: 100px;
+    background: #A10B01;
+    text-align: center;
+    color: #f7f2f2;
+}
+
+.stats_user {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.stats_computer {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.player_name {
+    text-transform: uppercase;
+}
+
+.score {
+    font-weight: bold;
+    font-size: 3em;
+    color: #24EE76;
+}
+
+.board {
+    width: 360px;
+    height: 360px;
+    border-radius: 20px;
+    margin: 15px auto;
+    display: flex;
+    flex-flow: row wrap;
+    color: rgb(254, 254, 254);
+}
+
+.casa {
+    width: 120px;
+    height: 120px;
+    border-radius: 20px;
+    border: 2px solid rgb(277, 277, 277);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 3em;
+    cursor: context-menu;
+    box-shadow: 0 0 50px rgba(16, 13, 13, 0.5);
+}
+
+.casa:hover {
+    background: #A10B01;
+}
+
+.start {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 400px;
+    height: 150px;
+    background: #A10B01;
+    border: 2px solid #A10B01;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.start span {
+    font-size: 2em;
+    margin: 0 30px;
+}
+
+.start span:hover {
+    color: #EE3124;
+    cursor: pointer;
+}
+
+.msg {
+    text-align: center;
+    color: #fff;
+}
